@@ -1,0 +1,14 @@
+.notif {
+  position: relative;
+  cursor: pointer;
+
+  &__dot {
+    position: absolute;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 2px;
+    right: 3px;
+  }
+}

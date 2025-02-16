@@ -1,0 +1,53 @@
+.card {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, red, orangered);
+  padding: 16px;
+  margin-top: 16px;
+
+  &__info-user {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__picture {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background-color: gray;
+  }
+
+  &__name {
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+
+  &__job {
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+  }
+
+  &__info-1 {
+    flex-grow: 1;
+  }
+
+  &__info-2 {
+    text-align: right;
+  }
+
+  &__location {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+
+  &__location-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+}

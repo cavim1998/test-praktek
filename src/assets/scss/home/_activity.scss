@@ -1,0 +1,40 @@
+.activity {
+  margin: 16px 0;
+  padding: 0 8px;
+
+  &__title {
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  &__clock-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 8px;
+  }
+
+  &__time-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-grow: 1;
+  }
+
+  &__time {
+    font-weight: bolder;
+    margin: 0;
+
+    &-work {
+      @extend .activity__time;
+      color: red;
+    }
+  }
+
+  &__description {
+    margin: 0;
+  }
+}

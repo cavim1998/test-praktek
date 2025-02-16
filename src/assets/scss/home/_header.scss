@@ -1,0 +1,23 @@
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  padding: 16px 0;
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  &__title {
+    font-family: 'Comic Sans MS';
+    font-size: 28px;
+    color: red;
+    font-weight: bolder;
+  }
+}
